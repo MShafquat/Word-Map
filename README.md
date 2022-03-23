@@ -13,6 +13,10 @@ A world map of how people of different regions say a word.
 The app uses streamlit, all the required packages can be installed using `pip install -r requirements.txt`.
 To run the app, run `streamlit run src/app.py`. Please note that, the number of translated text may be less than the `Number of countries to show` specified in the slider because the dataset used has missing entries for some countries.
 
+To run using Docker image, first build the docker image using `docker build -t word-map:<tag> .` and run using `docker run -d -p 80:80 word-map:<tag>`.
+
+Deployed to Microsoft Azure: [https://word-map.azurewebsites.net/](https://word-map.azurewebsites.net/).
+
 ## TODO
 
 1. Dataset for the languages of the countries collected from [http://www.fullstacks.io/2016/07/countries-and-their-spoken-languages.html](http://www.fullstacks.io/2016/07/countries-and-their-spoken-languages.html) has some misinformation and missing entries, need to use or create a correct one.
