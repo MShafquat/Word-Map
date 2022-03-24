@@ -1,5 +1,5 @@
 # Word Map
-A world map of how people of different regions say a word.
+A world map of how people of different countries say a word.
 
 ## Data
 [country.csv](./data/country.csv) contains countries and their latitude and longitude, the file is collected from: [https://developers.google.com/public-data/docs/canonical/countries_csv](https://developers.google.com/public-data/docs/canonical/countries_csv)
